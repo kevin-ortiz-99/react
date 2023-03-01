@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+div h1,h2{
+  color: #ffffff; 
+  margin: 0px; 
+  list-style-position: inside;       
+}
+ 
+input{
+  padding: 0.5%;
+}
+ 
+
+ 
+ 

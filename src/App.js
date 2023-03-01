@@ -1,20 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
+import Head from './Components/Head';
+import Body1 from './Components/Body1';
+import Body2 from './Components/Body2';
+import Footer from './Components/Footer';
 
 class App extends Component {
-  render(){
-    
-    const peliculas=[
-      { id: 1001, title: "Back to the Future"},
-      { id: 1652, title: "Home Alone", },
-      { id: 1734, title: "Titanic", },]
-  return ( 
-          
-    <div>
-      {peliculas.map((p,i)=><h1 key={i}>{p.title}</h1>)}
-    </div>
-  );}
+  render() {
+    return (
+      <div className="App">
+          <Head/>
+          <Body1/>
+          <Body2/>
+          <Footer/>
+
+      </div>
+    );
+  }
 }
 
 export default App;
